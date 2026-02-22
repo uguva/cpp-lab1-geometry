@@ -42,7 +42,7 @@ int main() {
     cin >> sectorAngle;
 
     if (radius <= 0) {
-        cout << "Ошибка: Радиус должен быть положительным!" << endl;
+        cout << "Ошибка: Радиус должен быть положительным" << endl;
     } else {
         double circumference = 2 * PI * radius;
         double circleArea = PI * pow(radius, 2);
